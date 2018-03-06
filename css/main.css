@@ -1,0 +1,172 @@
+body {
+	font-family: "Nunito", sans-serif;
+	text-align: justify;
+}
+
+/*
+* Setting flexbox
+*/
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 16px;
+}
+
+.box {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*
+*Upper part with logo and name, 
+*/
+
+.header {
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+}
+
+.top-name {
+	flex-direction: column;
+	align-items: flex-end;
+	text-align: right;
+}
+
+.name-hand {
+	font-family: "Sacramento", cursive;
+	font-size: 2.5em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.name {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.title {
+	font-family: "Coming Soon", cursive;
+	margin-bottom: 0
+}
+
+/*
+*Navigation
+*/
+
+.navigation {
+  	justify-content: center;
+	border-top: 2px solid #5700b5;
+	border-bottom: 2px solid #5700b5;
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+.nav-list {	
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    list-style-type: none;
+	padding: 0;
+}
+
+.nav-item .text-link {	
+	font-size: 1.2em;
+	text-decoration: none;
+	background-color: white;
+    color: black;
+    padding: 14px 14px;
+}
+
+
+.nav-item .text-link:hover {
+    background-color: #5700b5;
+    color: white;
+    border-top: 2px solid #5700b5;
+	border-bottom: 2px solid #5700b5;
+}
+
+/*
+*Top image in the background
+*/
+
+.background {
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/top.jpg");
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+}
+
+.intro {
+	color: white;
+	font-family: "Sacramento", cursive;
+	font-size: 3em;
+	font-weight: 100;
+	text-align: center;
+}
+
+
+/*
+*Projects' cards
+*/
+
+.projects {
+	justify-content: space-around;
+}
+
+.card {
+	width: 90%;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 0.3s;
+	border-radius: 5px;
+	margin: 10px auto;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	background-color: #5700b5;
+	color: white;
+	transition: 0.3s;
+}
+
+.card-inside {
+	padding: 2px 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.image {
+	width: 100%;
+}
+
+/*
+*Contact part
+*/
+
+.icons {
+	font-size: 2em;
+	color: #5700b5;
+}
+
+.center {
+	justify-content: center;
+}
+
+/*
+*footer
+*/
+
+.footer {
+	border-top: 3px solid #824fbc;
+	font-size: 1em;
+	justify-content: center;
+}
+
