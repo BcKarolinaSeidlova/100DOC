@@ -11,12 +11,12 @@ This site was created by Karolina Seidlova (hereinafter _me_) as a one of the pr
 
 ## Validation and some notes to it
 - **HTML**
-- [See validation](https://validator.w3.org/nu/?doc=http%3A%2F%2Fseidka.unas.cz)
+- [See validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbckarolinaseidlova.github.io%2Fportfolio%2F)
     - my own code is without errors
     - the 1 warning is because of link for Google Fonts
     - the other 2 warnings appear because of the free hosting server that puts adverts in the site
 - **CSS** 
-- [See validation](https://jigsaw.w3.org/css-validator/validator?uri=seidka.unas.cz&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- [See validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbckarolinaseidlova.github.io%2Fportfolio%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en?uri=seidka.unas.cz&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
     - without errors and warnings
     - breakpoints in separate file (_responsive.css_)
 
