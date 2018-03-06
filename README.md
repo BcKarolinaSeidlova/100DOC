@@ -1,5 +1,5 @@
 # Portfolio site
-This site was created by Karolina Seidlova (hereinafter _me_) as a one of the projects in Udacity nanodegree program. The portfolio page contains information about me, my web projects and contacts. It's online version is on seidka.unas.cz
+This site was created by Karolina Seidlova (hereinafter _me_) as a one of the projects in Udacity nanodegree program. The portfolio page contains information about me, my web projects and contacts. It's online version is on [GitHub](https://bckarolinaseidlova.github.io/portfolio/)
 
 ## Used languages
 - **HTML**
