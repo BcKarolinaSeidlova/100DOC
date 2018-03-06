@@ -65,8 +65,7 @@
 
 @media screen and (min-width: 960px)
 {
-	.content
-	{
+	.content {
 		width: 960px;
 		margin: 0 auto;
 	}
