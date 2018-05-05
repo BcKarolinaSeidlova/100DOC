@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 450px) {
 
-	.card {
+	.card, .diary {
 		width: 48%;
 	}
 
@@ -51,7 +51,7 @@
 
 @media screen and (min-width: 720px) {
 
-	.card {
+	.card, .diary {
 		width: 30%;
 	}
 
